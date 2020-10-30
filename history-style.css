@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    background: url("Beati-Sunt-widest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+    
+  }
+  
+  .header {
+    padding: 0px 45px 0 45px;  
+
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+  }
+  
+  .nav a:hover {
+    color:#E0F2F1;
+    transform: scale(1.3);
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 20px;
+    background-color: none;
+  }
+  
+  .hero {
+    background-color:#E0F2F1;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner {
+    max-width: 760px;
+  }
+  
+  .hero h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero h2{
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+  }
+  
+  .button {
+    background-color: #00695C;
+    color: #FFF;
+    Padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    text-decoration: none;
+    display: inline-block;
+     }
+  
+     .main{
+    
+      min-width: 1080px;
+       display: grid;
+       grid-template-columns: repeat(6, 14vw);
+       grid-template-rows: repeat(10, 14vw) 1fr;
+       grid-gap: 1vw;
+      
+     }
+     .rest{
+      width: 200px;
+      height: 200px;
+
+      list-style: none;
+    }
+
+    .beati{
+      width: 200px;
+      padding: 0 100px;
+    }
+
+
+    .verse li{
+
+      width: 200px;
+      height: 200px;
+
+      list-style: none;
+      
+      padding:  0 5px 0 5px;
+      
+      text-align: center;
+     
+     }
+
+     .verse{
+      display: grid;
+      grid-template-columns: repeat(3,minmax(210px, 210px));
+      grid-auto-rows: 200px;
+     grid-gap: 10px;        
+
+     }
+     .numbers{
+       font-size: 2.8rem;
+       font-family: 'Playfair Display', serif;
+      
+       margin: 0%;
+       padding: 0;
+       color: rgb(0, 59, 54);
+       text-shadow: 2px 2px #cef6fd;
+       
+     }
+     .blessed{
+       font-size: 1.1rem;
+       font-family: 'Playfair Display', serif;
+       
+       margin: 0%;
+       color: #fff;
+       text-shadow: 1.5px 1.5px #00363f
+    }
+
+    .gift{
+     font-family: 'Roboto', sans-serif;    
+     display: block;
+     margin: 10px 0 0 0;
+     color: #FFF;
+        }
+   
+      .verse li:nth-child(1){
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.507), rgba(255, 89, 247, 0.707));
+        ackground-color: #B2DFDB50;
+        grid-row: 1 / 2;
+        grid-column: 2/3;
+        border-radius: 100px 100px 0 0;
+      }
+
+      .verse li:nth-child(2){
+        grid-row: 1/2;
+        grid-column: 3/4;
+        ackground-color: #d3faff30;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(89, 255, 233, 0.507),rgba(89, 255, 233, 0.707));
+        border-radius: 100px 100px 0 0;
+      }
+
+      .verse li:nth-child(3){
+        ackground-color: #8dfff680;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(77, 169, 255, 0.507), rgba(77, 169, 255, 0.707));
+        grid-row: 2/3;
+        grid-column: 1/2;
+        border-radius: 100px 100px 0 0;
+      }
+      li:nth-child(4){
+        grid-row: 2 / 3;
+        grid-column: 2/ 3;
+        ackground-color: #e281ff9a;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.507), rgba(255, 89, 247, 0.707));
+        border-radius: 100px 100px 0 0;
+      }
+
+      li:nth-child(5){
+        grid-row: 2 / 3;
+        grid-column: 3/4;
+        ackground-color: #d3faff30;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(77, 169, 255, 0.507), rgba(77, 169, 255, 0.707));
+        border-radius: 100px 100px 0 0;
+      }
+
+      li:nth-child(6){
+        ackground-color: #e988df30;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(89, 255, 233, 0.1),rgba(89, 255, 233, 0.707));
+        grid-row: 3/4;
+        grid-column: 1/2;
+        border-radius: 100px 100px 0 0;
+      }
+
+      li:nth-child(7){
+        grid-row: 3/4;
+        grid-column: 2/3;
+        ackground-color: #d3faff70;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(140, 222, 255, 0.2),rgba(140, 222, 255, 0.707));
+        border-radius: 100px 100px 0 0;
+      
+      }
+
+      li:nth-child(8){
+        ackground-color: #e988df30;
+        background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.2), rgba(255, 89, 247, 0.707));
+        grid-row: 3/4;
+        grid-column: 3/4;
+        border-radius: 100px 100px 0 0;
+      }
+
+      li:nth-child(9){
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding: 20px 0 0 0;
+        text-align: center;
+        color: #FFF;
+        text-shadow: 1.5px 1.5px #00363f
