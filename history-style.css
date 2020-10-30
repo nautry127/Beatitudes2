@@ -1,15 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: larger;
-    background: url("Beati-Sunt-widest.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    scroll-behavior: smooth;
-    
-    
-  }
+
   
   .header {
     padding: 0px 45px 0 45px;  
@@ -89,11 +78,23 @@ body {
     }
 
     @media only screen and (min-width: 670px){
-        .verse{
+        body{
+          margin: 0;
+          font-family: 'Roboto', sans-serif;
+          font-size: larger;
+        
+          background: url("Beati-Sunt-widest.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right;
+          scroll-behavior: smooth;
+        }
+      .verse{
           display: grid;
           grid-template-columns: repeat(3,minmax(210px, 210px));
           grid-auto-rows: 200px;
           grid-gap: 10px;  
+
         }
         .beati{
           width: 600px;
@@ -111,7 +112,16 @@ body {
         }
     }
     @media only screen and (max-width: 670px){
-      body{background-position: right;
+      body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: larger;
+      
+        background: url("beati-sunt-tall-web.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        scroll-behavior: smooth;
           
       }
       .beati{
@@ -137,7 +147,6 @@ body {
       
     }
 }
-
 
     .verse li{
 
@@ -181,60 +190,40 @@ body {
 
 
       .verse li:nth-child(2){
-        grid-row: ;
-        grid-column: ;
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(140, 222, 255, 0.2),rgba(140, 222, 255, 0.707));
         border-radius: 100px 100px 0 0;
       }
 
       .verse li:nth-child(3){
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(77, 169, 255, 0.507), rgba(77, 169, 255, 0.707));
-        grid-row: ;
-        grid-column: ;
         border-radius: 100px 100px 0 0;
       }
       li:nth-child(4){
-        grid-row: ;
-        grid-column: ;
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.507), rgba(255, 89, 247, 0.707));
         border-radius: 100px 100px 0 0;
       }
 
       li:nth-child(5){
-        grid-row: ;
-        grid-column: ;
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(89, 255, 233, 0.507),rgba(89, 255, 233, 0.707));
         border-radius: 100px 100px 0 0;
       }
 
       li:nth-child(6){
-        
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(89, 255, 233, 0.1),rgba(89, 255, 233, 0.707));
-        grid-row: ;
-        grid-column: ;
         border-radius: 100px 100px 0 0;
       }
 
       li:nth-child(7){
-        grid-row: ;
-        grid-column: ;
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.2), rgba(255, 89, 247, 0.707));
-        
         border-radius: 100px 100px 0 0;
-      
       }
 
       li:nth-child(8){
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(77, 169, 255, 0.507), rgba(77, 169, 255, 0.707));
-        
-        grid-row: ;
-        grid-column: ;
         border-radius: 100px 100px 0 0;
       }
 
       li:nth-child(9){
-        grid-row: ;
-        grid-column: ;
         background-image: linear-gradient(to top, rgba(255, 0, 221, 0), rgba(255, 89, 247, 0.507), rgba(255, 89, 247, 0.707));
         border-radius: 100px 100px 0 0;
       }
