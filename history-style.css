@@ -74,6 +74,44 @@
           grid-column: ;
           
         }
+        .verse li{
+
+          width: 200px;
+          height: 200px;
+    
+          list-style: none;
+          
+          padding:  0 5px 0 5px;
+          
+          text-align: center;
+         
+         }
+    
+         .numbers{
+           font-size: 2.8rem;
+           font-family: 'Playfair Display', serif;
+          
+           margin: 0%;
+           padding: 0;
+           color: rgb(0, 59, 54);
+           text-shadow: 2px 2px #cef6fd;
+           
+         }
+         .blessed{
+           font-size: 1.1rem;
+           font-family: 'Playfair Display', serif;
+           
+           margin: 0%;
+           color: #fff;
+           text-shadow: 1.5px 1.5px #00363f
+        }
+    
+        .gift{
+         font-family: 'Roboto', sans-serif;    
+         display: block;
+         margin: 10px 0 0 0;
+         color: #FFF;
+            }
     }
     @media only screen and (max-width: 65vh){
       body{
@@ -95,7 +133,7 @@
       }
       .verse{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(210px, 210px));
+        grid-template-columns: repeat(auto-fit,minmax(150px, 150px));
         grid-auto-rows: 180px;
         grid-gap: 10px;
     }
@@ -110,11 +148,9 @@
       
       
     }
-}
-
     .verse li{
 
-      width: 200px;
+      width: 140px;
       height: 200px;
 
       list-style: none;
@@ -150,6 +186,9 @@
      margin: 10px 0 0 0;
      color: #FFF;
         }
+}
+
+
    
 
 
